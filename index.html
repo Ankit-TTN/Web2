@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h2>
+            <a href=""> To The New</a>
+        </h2>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Quick Help</a></li>
+            </ul>
+    </header>
+    <hr>
+    <div class="form-container">
+        <div class="form-heading">
+            <h3>Bug Report</h3>
+        </div>
+        <form class="flex-contianer">
+            <div class="flex-container input-grp">
+                <label for="">Title:*</label>
+                <input type="text">
+            </div>
+            <div class="flex-container input-grp">
+                <label for="">Description:*</label>
+                <textarea name="" rows="5"></textarea>
+            </div>
+            <div class="flex-container input-grp">
+                <label for="">Operating System:</label>
+                <select>
+                    <option value="win">Windows XP</option>
+                    <option value="win7">Windows 7</option>
+                    <option value="win10">Windows 10</option>
+                    <option value="ubuntu">Ubuntu</option>
+                    <option value="mac">Mac OS</option>
+                </select>
+            </div>
+            <div class="flex-container input-grp">
+                <label for="">Product:*</label>
+                <select>
+                    <option value="formoid">Formoid</option>
+                    <option value="formoid1">Formoid1</option>
+                    <option value="formoid2">Formoid2</option>
+                    <option value="formoid3">Formoid3</option>
+                    <option value="formoid4">Formoid4</option>
+                </select>
+            </div>
+            <div class="flex-container input-grp">
+                <label for="">Verison:*</label>
+                <input id="version" type="text">
+            </div>
+            <div class="flex-container input-grp">
+                <label for="">License:</label>
+                <div class="flex-container flex-row">
+                    <div class="radio-div">
+                        <input type="radio" name="license">
+                        <label for="">Free</label>
+                    </div>
+                    <div class="radio-div">
+                        <input type="radio" name="license">
+                        <label for="">Buisness</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container input-grp">
+                <label for="">Severity:</label>
+                <select>
+                    <option value="Critical">Critical</option>
+                    <option value="Critical1">Critical1</option>
+                    <option value="Critical2">Critical2</option>
+                    <option value="Critical3">Critical3</option>
+                </select>
+            </div>
+            <div class="flex-container input-grp">
+                <label for="">Attachments:</label>
+                <input type="file">
+            </div>
+        </form>
+        <div class="flex-end form-footer">
+            <button id="btn">Send</button>
+        </div>
+    </div>
+</body>
+
+</html>
